@@ -1,3 +1,7 @@
+# Run this project.
+`sh build.sh --clean --lab1 --lab2`
+`cd build && ctest -VV -R "database_*" -j`
+
 This is a project based on stanford cs245.
 
 # Prerequisite
